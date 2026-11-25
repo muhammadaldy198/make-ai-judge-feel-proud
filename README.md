@@ -4,7 +4,7 @@
 [![rank](https://make.fun/badge/u-shino-make-the-ai-judge-feel-proud-a-family-scene-ee2e3fa2/muhammadaldy198/make-ai-judge-feel-proud/rank.svg)](https://make.fun/bounty/u-shino-make-the-ai-judge-feel-proud-a-family-scene-ee2e3fa2/leaderboard?utm_source=github&utm_medium=readme&utm_campaign=u-shino-make-the-ai-judge-feel-proud-a-family-scene-ee2e3fa2)
 [![reward](https://make.fun/badge/u-shino-make-the-ai-judge-feel-proud-a-family-scene-ee2e3fa2/muhammadaldy198/make-ai-judge-feel-proud/reward.svg)](https://make.fun/bounty/u-shino-make-the-ai-judge-feel-proud-a-family-scene-ee2e3fa2?utm_source=github&utm_medium=readme&utm_campaign=u-shino-make-the-ai-judge-feel-proud-a-family-scene-ee2e3fa2)
 
-A two-line family scene about a father's quiet pride, found in a coffee can.
+A two-line family scene: a six-year-old treats "five more minutes" as a place, bear packed, and her parent never tells her it isn't one.
 
 ## Run it
 
