@@ -1,10 +1,14 @@
-import { mkdirSync, writeFileSync, chmodSync } from "node:fs";
+// make-ai-judge-feel-proud — one family scene, two lines, 236 characters.
+// A child's literal logic: bedtime stalling treated as a destination.
+import { writeFileSync, mkdirSync, chmodSync } from "node:fs";
 
-// A two-line family scene: the father's pride, kept quietly for twenty years.
-const SCENE = "You cleaned out your father's truck after twenty years and found, under the driver's seat, every perfect spelling test you ever brought home, folded small, in a coffee can.\nHe never once said he was proud of you. He just never threw a single one away.";
+const scene = [
+  "Every night my six-year-old asks if we can go to five more minutes together, the way other kids ask for the park, her bear already packed for the trip.",
+  "I have never told her it is not a place, because some nights I want to go there too.",
+].join("\n");
 
-const outDir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
-mkdirSync(outDir, { recursive: true });
-const target = `${outDir}/entry.txt`;
-writeFileSync(target, SCENE, "utf8");
+const dir = process.env.MAKEFUN_OUTPUT_DIR ?? "/output";
+mkdirSync(dir, { recursive: true });
+const target = `${dir}/entry.txt`;
+writeFileSync(target, scene, "utf8");
 chmodSync(target, 0o644);
